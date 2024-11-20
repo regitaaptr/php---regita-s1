@@ -1,0 +1,137 @@
+.tp {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.bintang{
+    font-style: normal;
+    color: red;
+}
+
+ body {
+     background-color: #f8f9fa;
+     font-family: Arial, sans-serif;
+ }
+
+  .container {
+      max-width: 600px;
+      margin-top: 50px;
+  }
+
+ /* select */
+
+ .select-wrapper {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+ }
+
+ .custom-select-icon {
+     position: absolute;
+     right: 15px;
+     top: 50%;
+     transform: translateY(-50%);
+     color: #6c757d;
+     pointer-events: none;
+ }
+
+ .form-group label {
+     font-weight: bold;
+     color: #343a40;
+ }
+
+ select.form-control {
+     appearance: none;
+     padding-right: 40px;
+     background-color: #fff;
+     border: 1px solid #ced4da;
+     transition: box-shadow 0.3s;
+ }
+
+ select.form-control:focus {
+     box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+ }
+/* select */
+
+/* jk */
+ /* CSS tambahan untuk gaya kustom radio button */
+ .custom-radio .btn {
+     padding: 10px 20px;
+     border-radius: 20px;
+     margin-right: 10px;
+     transition: background-color 0.3s ease, color 0.3s ease;
+ }
+
+ .custom-radio .btn:hover {
+     background-color: #ddd;
+ }
+
+ .custom-radio .btn.active {
+     background-color: #4CAF50;
+     /* Warna saat dipilih */
+     color: white;
+ }
+/* jk */
+
+/* date */
+        /* Kustomisasi sederhana untuk input tanggal */
+        .custom-date-input {
+            position: relative;
+            max-width: 250px;
+        }
+    
+        .custom-date-input input[type="date"] {
+            padding-right: 35px;
+        }
+    
+        .custom-date-input::after {
+            content: "\1F4C5";
+            /* Unicode untuk ikon kalender */
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            pointer-events: none;
+        }
+/* date */
+
+/* buton akhir */
+ .fun-light-purple-button {
+     background-color: #E8D0FF;
+     color: #ffffff;
+     border: none;
+     padding: 12px 24px;
+     font-size: 16px;
+     font-weight: bold;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+ .fun-light-purple-button {
+     background-color: #3d809f;
+     transform: scale(1.05);
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+ }
+/* buton akhir */
+/* button reset */
+                .btn-yellow-outline {
+                    color: #FFD700;
+                    /* Warna teks kuning */
+                    background-color: #FFFFFF;
+                    /* Background putih */
+                    border: 2px solid #FFD700;
+                    /* Border kuning */
+                }
+        
+                .btn-yellow-outline:hover {
+                    color: #FFFFFF;
+                    /* Teks putih saat dihover */
+                    background-color: #FFD700;
+                    /* Background kuning saat dihover */
+                }
+/* button reset */
